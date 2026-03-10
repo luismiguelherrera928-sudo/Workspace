@@ -114,11 +114,4 @@ git rebase <rama>                 # Cambiar base de la rama actual
 git rebase -i HEAD~n              # Rebase interactivo de los últimos n commits
 git rebase --continue             # Continuar rebase después de resolver conflictos
 git rebase --abort                # Cancelar un rebase
-```
-
-## Tips Útiles
-
-- **Crear un alias**: `git config --global alias.co checkout`
-- **Ver cambios antes de hacer push**: `git log origin/main..main`
-- **Limpiar ramas eliminadas**: `git fetch --prune`
-- **Cambiar último commit remoto**: No es recomendado, evitar `git push --force` sin coordinación
+``
