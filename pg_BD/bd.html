@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Base de Datos</title>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body class="bg-light">
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-md-10 offset-md-1">
+                <h1 class="mb-4 text-primary">Base de Datos - Conceptos Fundamentales</h1>
+
+                <!-- ¿Qué es una base de datos? -->
+                <div class="card mb-4">
+                    <div class="card-header bg-primary text-white">
+                        <h4 class="mb-0">¿Qué es una base de datos?</h4>
+                    </div>
+                    <div class="card-body">
+                        <p>Una base de datos es un conjunto organizado de datos estructurados que se almacenan en una computadora y se pueden acceder, gestionar y actualizar de manera eficiente. Las bases de datos permiten guardar información de forma ordenada para que pueda ser consultada rápidamente.</p>
+                    </div>
+                </div>
+
+                <!-- ¿Para qué sirve una BD? -->
+                <div class="card mb-4">
+                    <div class="card-header bg-success text-white">
+                        <h4 class="mb-0">¿Para qué sirve una BD?</h4>
+                    </div>
+                    <div class="card-body">
+                        <p>Las bases de datos sirven para:</p>
+                        <ul>
+                            <li>Almacenar grandes cantidades de información de forma organizada</li>
+                            <li>Facilitar la búsqueda y recuperación rápida de datos</li>
+                            <li>Mantener la integridad y consistencia de la información</li>
+                            <li>Permitir múltiples usuarios acceder a los datos simultáneamente</li>
+                            <li>Proteger los datos mediante mecanismos de seguridad</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- ¿Qué es un campo? -->
+                <div class="card mb-4">
+                    <div class="card-header bg-info text-white">
+                        <h4 class="mb-0">¿Qué es un campo?</h4>
+                    </div>
+                    <div class="card-body">
+                        <p>Un campo es la unidad básica más pequeña en una base de datos. Es un espacio destinado a almacenar un dato específico. Por ejemplo, en una tabla de estudiantes, "Nombre", "Edad" y "Matrícula" son campos.</p>
+                    </div>
+                </div>
+
+                <!-- ¿Qué es un registro? -->
+                <div class="card mb-4">
+                    <div class="card-header bg-warning text-dark">
+                        <h4 class="mb-0">¿Qué es un registro?</h4>
+                    </div>
+                    <div class="card-body">
+                        <p>Un registro (también llamado fila o tupla) es un conjunto de campos relacionados que forman una unidad completa de información. Por ejemplo, un registro en una tabla de estudiantes contiene todos los datos de un estudiante: su nombre, edad, matrícula, etc.</p>
+                    </div>
+                </div>
+
+                <!-- ¿Qué es un dato? -->
+                <div class="card mb-4">
+                    <div class="card-header bg-danger text-white">
+                        <h4 class="mb-0">¿Qué es un dato?</h4>
+                    </div>
+                    <div class="card-body">
+                        <p>Un dato es el valor específico almacenado en un campo. Es la información más básica y concreta. Por ejemplo, "Juan", "25" o "2024001" son datos que pueden estar en los campos de Nombre, Edad y Matrícula respectivamente.</p>
+                    </div>
+                </div>
+
+                <!-- ¿Qué es un diagrama entidad-relación? -->
+                <div class="card mb-4">
+                    <div class="card-header bg-secondary text-white">
+                        <h4 class="mb-0">¿Qué es un diagrama entidad-relación?</h4>
+                    </div>
+                    <div class="card-body">
+                        <p>Un diagrama entidad-relación (DER) es una representación gráfica del diseño de una base de datos. Muestra las entidades (tablas), sus atributos (campos) y las relaciones existentes entre las diferentes entidades. Es una herramienta fundamental en el análisis y diseño de bases de datos.</p>
+                    </div>
+                </div>
+
+                <!-- Ejemplo de Diagrama Entidad-Relación -->
+                <div class="card mb-4">
+                    <div class="card-header bg-dark text-white">
+                        <h4 class="mb-0">Ejemplo de Diagrama Entidad-Relación</h4>
+                    </div>
+                    <div class="card-body">
+                        <div class="text-center mb-4">
+                            <img src="https://www.entecna.com/resources/images/services/database-img1.png" alt="Ejemplo de Diagrama Entidad-Relación" class="img-fluid" style="max-width: 100%; height: auto;">
+                        </div>
+                        <p>
+                            En el diagrama anterior, podemos observar un ejemplo clásico de relación entre entidades. Se muestran dos tablas principales: "Clientes" y "Pedidos", conectadas por una relación de uno a muchos. La entidad Clientes contiene atributos como ID_Cliente, Nombre y Correo. La entidad Pedidos contiene atributos como ID_Pedido, Fecha y Monto. La relación entre ambas indica que un cliente puede realizar múltiples pedidos, pero cada pedido pertenece a un único cliente. Este tipo de diagrama es esencial para visualizar la estructura de la base de datos antes de ser implementada, permitiendo identificar claramente las tablas necesarias, sus campos y cómo se relacionan entre sí.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
