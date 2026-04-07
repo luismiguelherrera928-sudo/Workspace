@@ -1,0 +1,12 @@
+let num1=4;
+let num2=8;
+let suma=num1+num2;
+console.log(num1+num2);
+let division=num1/num2;
+console.log(num1/num2);
+let resta=num1-num2;
+console.log(num1-num2);
+let multiplicacion=num1*num2;
+console.log(num1*num2);
+let modulo=num1%num2;
+console.log(num1%num2);
